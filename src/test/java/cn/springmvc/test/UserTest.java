@@ -34,11 +34,11 @@ private UserService userService;
 //		user.setPasswd("lllll");
 //		System.out.println(userService.insertUser(user));
 //	}
-	
+//	
 	@Test
 	public void getUserById() {
 		User u = userService.getUserById(1);
-		assertEquals("name not match", "zhangmin", u.getName());
+		assertEquals("name not match", "zm", u.getName());
 	}
 	
 	@Test
